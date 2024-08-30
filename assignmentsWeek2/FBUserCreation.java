@@ -30,6 +30,7 @@ public class FBUserCreation {
 		Yearobj.selectByVisibleText("1998");
 		WebElement Gender = driver.findElement(By.xpath("(//input[@value='2'])"));
 		Gender.click();
-		
+		driver.close();
+
 	}
 }
